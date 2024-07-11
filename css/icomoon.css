@@ -1,17 +1,18 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?5j2n32');
-  src:  url('fonts/icomoon.eot?5j2n32#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?5j2n32') format('truetype'),
-    url('fonts/icomoon.woff?5j2n32') format('woff'),
-    url('fonts/icomoon.svg?5j2n32#icomoon') format('svg');
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?5j2n32");
+  src: url("fonts/icomoon.eot?5j2n32#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?5j2n32") format("truetype"),
+    url("fonts/icomoon.woff?5j2n32") format("woff"),
+    url("fonts/icomoon.svg?5j2n32#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -2100,7 +2101,7 @@
 .icon-youtube:before {
   content: "\eacd";
 }
-.icon-youtube2:before {
+.icon-youtube:before {
   content: "\eace";
 }
 .icon-twitch:before {
@@ -2331,4 +2332,3 @@
 .icon-IcoMoon:before {
   content: "\eb1a";
 }
-

@@ -1478,3 +1478,53 @@ h4 {
   color: #000;
 }
 
+
+.centres_icon{
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-inline-start: 0px;
+}
+
+.centres_icon li {
+  margin-left: 6px;
+}
+
+.centres_icon li a {
+color: #999999;
+}
+
+
+.church_title{
+  font-weight: bold;
+}
+
+
+.btn-whatsapp {
+  background: #25D366;
+  color: #fff;
+  border: 2px solid #25D366;
+}
+.btn-whatsapp:hover,
+.btn-whatsapp:focus,
+.btn-whatsapp:active {
+  background: #25D366 !important;
+  border-color: #25D366 !important;
+}
+.btn-whatsapp.btn-outline {
+  background: transparent;
+  color: #25D366;
+  border: 2px solid #25D366;
+}
+.btn-whatsapp.btn-outline:hover,
+.btn-whatsapp.btn-outline:focus,
+.btn-whatsapp.btn-outline:active {
+  background: #25D366;
+  color: #fff;
+}
+
+
+.whatsapp-icon{
+  margin-right: 5px;
+}
